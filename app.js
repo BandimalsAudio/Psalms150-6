@@ -9,7 +9,7 @@ let tracks = [
     title: "01. One, Two",
     date: "2026-06-18",
     kind: "url",
-    url: "https://drive.google.com/file/d/1jQkrM62rrYuqSKWiQB8JJBk3NYkOqpbw/view"
+    url: "audio/One, Two.mp3"
   },
 
   {
@@ -247,11 +247,19 @@ async function renderTracks() {
               </div>
             </div>
           </div>
-          ${
-            src
-              ? `<audio controls preload="metadata" src="${escapeText(src)}"></audio>`
-              : `<p class="form-note">This uploaded file is no longer available in this browser.</p>`
-          }
+         ${
+  src
+    ? `
+      <audio controls preload="metadata" src="${escapeText(src)}"></audio>
+
+      <br><br>
+
+      <a href="${escapeText(src)}" download>
+        Download Audio
+      </a>
+    `
+    : `<p class="form-note">Audio unavailable.</p>`
+}
         </article>
       `;
     }),
