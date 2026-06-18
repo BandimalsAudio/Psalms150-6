@@ -55,53 +55,54 @@ let tracks = [
   },
 
   {
-  title: "08. One, Two (Instrumental)",
-  date: "2026-06-18",
-  kind: "url",
-  url: "audio/08 One, Two (Instrumental).mp3"
-},
+   title: "08. One, Two (Instrumental)",
+   date: "2026-06-18",
+   kind: "url",
+   url: "audio/08 One, Two (Instrumental).mp3"
+  },
 
-{
-  title: "09. If I Were King (Instrumental)",
-  date: "2026-06-18",
-  kind: "url",
-  url: "audio/09 If I Were King (Instrumental).mp3"
-},
+  {
+   title: "09. If I Were King (Instrumental)",
+   date: "2026-06-18",
+   kind: "url",
+   url: "audio/09 If I Were King (Instrumental).mp3"
+  },
 
-{
-  title: "10. Friends (Instrumental)",
-  date: "2026-06-18",
-  kind: "url",
-  url: "audio/10 Friends (Instrumental).mp3"
-},
+  {
+   title: "10. Friends (Instrumental)",
+   date: "2026-06-18",
+   kind: "url",
+   url: "audio/10 Friends (Instrumental).mp3"
+  },
 
-{
-  title: "11. I Like (Instrumental)",
-  date: "2026-06-18",
-  kind: "url",
-  url: "audio/11 I Like (Instrumental).mp3"
-},
+  {
+   title: "11. I Like (Instrumental)",
+   date: "2026-06-18",
+   kind: "url",
+   url: "audio/11 I Like (Instrumental).mp3"
+  },
 
-{
-  title: "12. Hold On - Do Right (Instrumental)",
-  date: "2026-06-18",
-  kind: "url",
-  url: "audio/12 Hold On - Do Right (Instrumental).mp3"
-},
+  {
+   title: "12. Hold On - Do Right (Instrumental)",
+   date: "2026-06-18",
+   kind: "url",
+   url: "audio/12 Hold On - Do Right (Instrumental).mp3"
+  },
 
-{
-  title: "13. If I Just Stay In School (Instrumental)",
-  date: "2026-06-18",
-  kind: "url",
-  url: "audio/13 If I Just Stay In School (Instrumental).mp3"
-},
+  {
+   title: "13. If I Just Stay In School (Instrumental)",
+   date: "2026-06-18",
+   kind: "url",
+   url: "audio/13 If I Just Stay In School (Instrumental).mp3"
+  },
 
-{
-  title: "14. I Guess I'm Ready For It All (Instrumental)",
-  date: "2026-06-18",
-  kind: "url",
-  url: "audio/14 I Guess I'm Ready For It All (Instrumental).mp3"
-}];
+  {
+   title: "14. I Guess I'm Ready For It All (Instrumental)",
+   date: "2026-06-18",
+   kind: "url",
+   url: "audio/14 I Guess I'm Ready For It All (Instrumental).mp3"
+  }
+  ];
 let dbPromise;
 let activeObjectUrls = [];
 
