@@ -55,53 +55,53 @@ let tracks = [
   },
 
   {
-    title: "08. One, Two (Instrumental)",
-    date: "2026-06-18",
-    kind: "url",
-    url: "audio/08 One, Two (Instrumental)mp3"
-  }, 
-  
-  {
-    title: "09. If I Were King (Instrumental)",
-    date: "2026-06-18",
-    kind: "url",
-    url: "https://drive.google.com/file/d/143M2S00JAKAw922ZsoWi8TYYDOk7sQ4X/view"
-  },
+  title: "08. One, Two (Instrumental)",
+  date: "2026-06-18",
+  kind: "url",
+  url: "audio/08 One, Two (Instrumental).mp3"
+},
 
-  {
-    title: "10. Friends (Instrumental)",
-    date: "2026-06-18",
-    kind: "url",
-    url: "https://drive.google.com/file/d/1AeWAU0GjWLIVV-8IVaG6t8occ6x5nvtK/view"
-  },
-  
-  {
-    title: "11. I Like (Instrumental)",
-    date: "2026-06-18",
-    kind: "url",
-    url: "https://drive.google.com/file/d/1teO45rja2_T0rDsP2DG4H8_3tXZGwqQy/view"
-  },
+{
+  title: "09. If I Were King (Instrumental)",
+  date: "2026-06-18",
+  kind: "url",
+  url: "audio/09 If I Were King (Instrumental).mp3"
+},
 
-  {
-    title: "12. Hold On - Do Right (Instrumental)",
-    date: "2026-06-18",
-    kind: "url",
-    url: "https://drive.google.com/file/d/1qAXUYlVM8qLPhJXxHwpOiCtnz_EZdfmB/view"
-  },
-  
-  {
-    title: "13. If I Just Stay In School (Instrumental)",
-    date: "2026-06-18",
-    kind: "url",
-    url: "https://drive.google.com/file/d/1S-eagOOMKyoQ3LGMK4Hm-jvDjJ5R2f__/view"
-  },
+{
+  title: "10. Friends (Instrumental)",
+  date: "2026-06-18",
+  kind: "url",
+  url: "audio/10 Friends (Instrumental).mp3"
+},
 
-  {
-    title: "14. I Guess I'm Ready For It All (Instrumental)",
-    date: "2026-06-18",
-    kind: "url",
-    url: "https://drive.google.com/file/d/14L7ru0X8Ldt__HsgM1U0HVzNog-x94wb/view"
-  }];
+{
+  title: "11. I Like (Instrumental)",
+  date: "2026-06-18",
+  kind: "url",
+  url: "audio/11 I Like (Instrumental).mp3"
+},
+
+{
+  title: "12. Hold On - Do Right (Instrumental)",
+  date: "2026-06-18",
+  kind: "url",
+  url: "audio/12 Hold On - Do Right (Instrumental).mp3"
+},
+
+{
+  title: "13. If I Just Stay In School (Instrumental)",
+  date: "2026-06-18",
+  kind: "url",
+  url: "audio/13 If I Just Stay In School (Instrumental).mp3"
+},
+
+{
+  title: "14. I Guess I'm Ready For It All (Instrumental)",
+  date: "2026-06-18",
+  kind: "url",
+  url: "audio/14 I Guess I'm Ready For It All (Instrumental).mp3"
+}];
 let dbPromise;
 let activeObjectUrls = [];
 
